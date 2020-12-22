@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{chemfig}
+
+\title{Chemistry}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\maketitle
+
+\section{\href{https://www.khanacademy.org/science/ap-chemistry}{Khan Academy: AP Chemistry}}
+
+\subsection{\href{https://www.khanacademy.org/science/ap-chemistry/atoms-compounds-ions-ap}{Atoms, compounds, and ions}}
+\subsubsection{Introduction to the atom}
+Starting out with the basics. Atoms are made up of protons, neutrons, and electrons. What element the atom is depends on the number of protons, a single element can have multiple isotopes (varying numbers of neutrons) and different charges (varying numbers of electrons).\par
+\textbf{Atomic number}, \(Z\), is the number of protons in an atom's nucleus. \textbf{Mass number}, \(A\), is the number of protons AND neutrons in an atom's nucleus. Hyphen notation is a way of writing out different isotopes of an element. For example, the hyphen notation of a carbon atom with 7 neutrons would be carbon-13.\par
+Particle mass is measured in \textbf{unified atomic mass units}, u, equal to \(\frac{1}{12}\) the mass of a carbon-12 atom. Protons have a mass of \(1.673\times10^{-27}\)kg, or \(1.007\)u, neutrons \(1.675\times10^{-27}\)kg, or \(1.009\)u, and electrons \(9.109\times10^{-31}\)kg, or \(5.486\times10^{-4}\)u. None of that is really useful to know outside of understanding that the relative mass of electrons is pretty insignificant.\par
+Something that's more useful to know is isotopic notation, which looks like \[^{\text{Mass number}}_{\text{Atomic number}}\text{\Large{Symbol}}^{\text{Charge}}\] So, for an element with 6 protons, 7 neutrons, and 7 electrons, \(^{13}_{6}\text{C}^{-1}\).\par
+Some more useful numbers are the \textbf{atomic mass}, the mass of the isotope in u, and the \textbf{average atomic mass}, which is the number that tends to show up on periodic tables under the atomic symbol. The average atomic mass is the average mass of all isotopes of an element weighted by \textbf{relative abundance}, the percentage of that element that is a given isotope in a naturally occurring sample. For example, if 70\% of the carbon in a sample had 6 neutrons and 30\% had 7, the relative abundance of carbon-12 and carbon-13 would be .7 and .3, respectively. In this hypothetical scenario, since the atomic masses of carbon-12 and carbon-13 are 12.096u and 13.105u, respectively, the average atomic mass of carbon would be 12.399u.\par
+\textbf{Avogadro's number}, \(6.02214076\times10^{23}\), is the number of atoms it would take to get the same number as the atomic mass in grams instead of unified atomic mass units. One Avogadro's number of atoms is called a \textbf{mole}. So, one mole of carbon (atomic mass 12.01u) would weigh 12.01g.
+
+\subsubsection{\href{https://www.khanacademy.org/science/ap-chemistry/atoms-compounds-ions-ap/compounds-and-ions-ap/a/daltons-atomic-theory-version-2}{Compounds and ions}}
+The \textbf{law of conservation of mass} says that matter is not created or destroyed in a closed system and the \textbf{law of constant composition} says that a pure compound will always have the same proportion of the same elements. Some dude named Dalton took those concepts and ran with them, figuring that all matter is made up of indivisible solid particles he called atoms and that all atoms of a given element are identical in mass and properties. Low-key 0 for 2 so far but that's okay. He also postulated that compounds consist of two or more different types of atoms and that a chemical reaction is a rearrangement of atoms. Finishing out at a strong 50\%, not bad when you realize you're looking at it from two centuries of hindsight.\par
+A \textbf{covalent bond} is formed when two atoms share electron pairs. There are several ways of representing molecules. Their names are just that, for example, ammonia. \textbf{Chemical formulas}, or \textbf{molecular formulas}, are simple ways of representing molecules and simply consist of the atomic symbols and the number of atoms of each element in one molecule of the compound. For example, ammonia is made up of three hydrogen atoms and one nitrogen atom, so its chemical formula is \chemfig{NH_3}. \textbf{Empirical formulas} show the ratio of elements in a molecule, for example benzene (chemical formula \chemfig{C_6H_6}) would have a empirical formula of CH. \textbf{Structural formulas} are visual representations of molecular structures. Stuff like \chemfig{H-[1]N(-[6]H)(-[7]H)} \, is a 2-dimensional approximation, whereas stuff like\, \chemfig{H-[1]\ddot{N}(<[6.5]H)(>:[7.3]H)} gives an idea of the geometry of the molecule, in this case the central hydrogen molecule comes outward whereas the rightmost hydrogen molecule goes back and to the right. The two dots above the nitrogen atom indicate a lone pair of electrons uninvolved in any covalent bonds.\par
+There is another major type of bond, the \textbf{ionic bond}. These exist when oppositely charged atoms are attracted to one another. \textbf{Ions} are atoms that have some non-neutral charge. \textbf{Cations} are positively charged, whereas \textbf{anions} are negatively charged. We'll use table salt, NaCl, as an example. The sodium gives the calcium one of its electrons, forming the cation Na\(^+\) and the anion Cl\(^-\). The electrostatic attraction between these two ions constitutes an ionic bond and forms NaCl. This can be represented as the following:
+\[ \big[ \chemfig{Na}\big]^+\big[\;\chemfig{\charge{0=\:,90=\:,180=\:,270=\:}{Cl}}\;\big]^-\]
+Unlike in a covalent bond, however, NaCl and other ionic compounds form not as single molecules but rather as crystal lattices. Therefore, NaCl is not representative of a molecule, per se, but is rather useful as a formula unit.\par
+
+
+\end{document}
